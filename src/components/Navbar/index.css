@@ -1,0 +1,24 @@
+.nav-bar-container{
+    height: 50px;
+    width: 100%;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add-person-btn{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    outline: none;
+    color: #1f2937;
+    margin-left: auto;
+    margin-right: 30px;
+    background-color: white;
+}
+

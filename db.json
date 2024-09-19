@@ -1,0 +1,62 @@
+{
+  "persons": [
+    {
+      "id": "b5f0",
+      "firstName": "Avinash",
+      "lastName": "Pyla",
+      "email": "avinash2005@gmail.com",
+      "country": "India",
+      "city": "Narsipatnam",
+      "region": "Ap",
+      "postalCode": "531114",
+      "income": [
+        {
+          "id": "a4dfac5f-54d7-482f-b8cf-ca86c1c9a591",
+          "source": "extra",
+          "amount": 5000,
+          "date": "2024-08-16T12:01:21.989Z"
+        },
+        {
+          "id": "586068a1-e2a6-4a64-9bd2-adcb47b9125c",
+          "source": "salary",
+          "amount": 50000,
+          "date": "2024-08-17T10:27:40.187Z"
+        }
+      ],
+      "expenses": [
+        {
+          "id": "877193f7-1a19-4f36-acd3-2adba9ba6dc0",
+          "name": "rent",
+          "amount": 6000,
+          "date": "2024-08-17T10:46:17.168Z"
+        }
+      ]
+    },
+    {
+      "id": "8b2e",
+      "firstName": "swathi",
+      "lastName": "pyla",
+      "email": "swathipyla1234@gmail.com",
+      "country": "India",
+      "city": "Narsipatnam",
+      "region": "Ap",
+      "postalCode": "531114",
+      "income": [
+        {
+          "id": "a74700b9-bdd7-4c9b-bbb7-bcd1594a47a5",
+          "source": "salary",
+          "amount": 30000,
+          "date": "2024-08-17T11:15:34.677Z"
+        }
+      ],
+      "expenses": [
+        {
+          "id": "849ab608-8856-446b-abe8-fc5ca6d5aa32",
+          "name": "rent",
+          "amount": 5000,
+          "date": "2024-08-17T11:16:00.536Z"
+        }
+      ]
+    }
+  ]
+}

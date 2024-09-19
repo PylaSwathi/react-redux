@@ -1,29 +1,23 @@
-import React from 'react';
-import ExpenseForm from './components/ExpenseForm';
-import ExpenseList from './components/ExpenseList';
-import IncomeForm from './components/IncomeForm';
-import IncomeList from './components/IncomeList';
-import Dashboard from './components/Dashboard';
+import AddPerson from "./components/AddPerson"
+import Dashboard from "./components/Dashboard"
+import ExpenseTracker from "./components/ExpenseTracker"
+import Navbar from "./components/Navbar"
 
-function App() {
+import { BrowserRouter,Route,Router,Routes } from "react-router-dom"
+
+const App =()=>{
   return (
-    <div className="App">
-      <h1 className="text-2xl text-center mt-10">Expense Tracker</h1>
-      <div className="flex justify-center space-x-10">
-        <div>
-          <h2 className="text-xl text-center mt-5">Add Expense</h2>
-          <ExpenseForm />
-          <ExpenseList />
-        </div>
-        <div>
-          <h2 className="text-xl text-center mt-5">Add Income</h2>
-          <IncomeForm />
-          <IncomeList />
-        </div>
-      </div>
-      <Dashboard />
-    </div>
-  );
+    <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Dashboard/>}/>
+          <Route path="/add-person" element={<AddPerson/>}/>
+          <Route path="/expense-tracker" element={<ExpenseTracker/>}/>
+
+        </Routes>
+    </BrowserRouter>
+    
+  )
 }
 
-export default App;
+export default App

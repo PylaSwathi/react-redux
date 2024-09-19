@@ -1,0 +1,20 @@
+.btn{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(16, 110, 190);
+    color:white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 60px;
+
+}
+.btn-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
